@@ -1,0 +1,79 @@
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+header{
+  padding: 5px 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute; */
+}
+
+nav {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  margin: 5px auto;
+  height: 85vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-write{
+  border: 1px solid black;
+  width: 45%;
+  height: 65vh;
+}
+
+.about-write h2 {
+  font-size: 45px;
+}
+
+.about-write p {
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+.about-photo{
+  border: 1px solid black;
+  width: 45%;
+  height: 65vh;
+}
+
+.projects-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  border: 1px solid black;
+  width: 20%;
+  height: 65vh;
+}
+
+.contact img {
+  height: 45px;
+  width: auto;
+}
+h2 {
+  color: blue;
+}
