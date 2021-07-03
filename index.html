@@ -11,18 +11,21 @@
 
 <body>
   <header>
-    <h1>Rachel Ramberg</h1>
-    <nav>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
-      <a href="">Resume</a>
-    </nav>
+    <div class="nav-bar">
+      <a href="#about">
+        <h1>Rachel Ramberg</h1>
+      </a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="">Resume</a>
+      </nav>
+    </div>
+    <hr />
   </header>
-  <hr />
   <main>
 
-    <section class="about">
+    <section id="about">
       <div class='about-write'>
         <h2>Hello! I'm Rachel.</h2>
         <p>
@@ -35,56 +38,83 @@
       </div>
       <div class="about-photo"></div>
     </section>
-    <section class="projects">
+
+    <section id="projects">
       <h2>Portfolio</h2>
       <div class="projects-container">
         <div class="project-card">
-          <img src="https://i.imgur.com/VexEq0h.png" alt="fithub-screen">
-          <h4>FitHub App</h4>
-          <p>Application description </p>
-          <p>Technologies</p>
-          <a href="">
-            <button>View App</button>
-          </a><a href="">
-            <button>View Code</button>
-          </a>
+          <div class="project-img">
+            <img src="https://i.imgur.com/GXJlOMp.png" alt="fithub-app">
+          </div>
+          <div class="project-write">
+            <h4>FitHub</h4>
+            <p>Application description </p>
+            <p>Technologies</p>
+          </div>
+          <div class="project-btns">
+            <a href="">
+              <button>View App</button>
+            </a><a href="">
+              <button>View Code</button>
+            </a>
+          </div>
         </div>
         <div class="project-card">
-          <img src="https://i.imgur.com/Gvy3XVl.png" alt="artic-screen">
-          <h4>ARTIC Generator</h4>
-          <p>Application description </p>
-          <p>Technologies</p>
-          <a href="">
-            <button>View App</button>
-          </a><a href="">
-            <button>View Code</button>
-          </a>
+          <div class="project-img">
+            <img src="https://i.imgur.com/GXJlOMp.png" alt="geodish-app">
+          </div>
+          <div class="project-write">
+            <h4>GeoDish</h4>
+            <p>Application description </p>
+            <p>Technologies</p>
+          </div>
+          <div class="project-btns">
+            <a href="">
+              <button>View App</button>
+            </a><a href="">
+              <button>View Code</button>
+            </a>
+          </div>
         </div>
         <div class="project-card">
-          <img src="https://i.imgur.com/GXJlOMp.png" alt="geodish-app">
-          <h4>GeoDish</h4>
-          <p>Application description </p>
-          <p>Technologies</p>
-          <a href="">
-            <button>View App</button>
-          </a><a href="">
-            <button>View Code</button>
-          </a>
+          <div class="project-img">
+            <img src="https://i.imgur.com/GXJlOMp.png" alt="WYR-app">
+          </div>
+          <div class="project-write">
+            <h4>Would You Rather?</h4>
+            <p>Application description </p>
+            <p>Technologies</p>
+          </div>
+          <div class="project-btns">
+            <a href="">
+              <button>View App</button>
+            </a><a href="">
+              <button>View Code</button>
+            </a>
+          </div>
         </div>
         <div class="project-card">
-          <img src="https://i.imgur.com/pGjqevC.png" alt="wyr-screen">
-          <h4>Would Your Rather?</h4>
-          <p>Application description </p>
-          <p>Technologies</p>
-          <a href="">
-            <button>View App</button>
-          </a><a href="">
-            <button>View Code</button>
-          </a>
+          <div class="project-img">
+            <img src="https://i.imgur.com/GXJlOMp.png" alt="ARTIC-app">
+          </div>
+          <div class="project-write">
+            <h4>ARTIC Generator</h4>
+            <p>Application description </p>
+            <p>Technologies</p>
+          </div>
+          <div class="project-btns">
+            <a href="">
+              <button>View App</button>
+            </a><a href="">
+              <button>View Code</button>
+            </a>
+          </div>
         </div>
       </div>
+      <!-- end project container -->
     </section>
-    <section class="contact">
+
+    <section id="contact">
       <h4>Let's Connect</h4>
       <p>ramberg.rachel@gmail.com</p>
       <a href="https://www.linkedin.com/in/rachelramberg/" target="_blank">
@@ -98,7 +128,7 @@
   </main>
   <hr />
   <footer>
-    <p>RAR 2021</p>
+    <p>© RAR 2021</p>
   </footer>
 </body>
 

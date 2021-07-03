@@ -7,13 +7,30 @@ body {
 }
 
 header{
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
   padding: 5px 10px;
-  margin: 0 auto;
+  width: 99%;
+  margin-bottom: 30px;
+  
+  
+}
+
+.nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* position: absolute; */
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  width: 100%;
+
+}
+
+header a {
+  text-decoration: none;
 }
 
 nav {
@@ -22,18 +39,20 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5px;
 }
 
 section {
-  margin: 5px auto;
-  height: 85vh;
+  margin: 25px auto;
 }
 
-.about {
+section#about {
+  padding-top: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  height: 85vh;
 }
 .about-write{
   border: 1px solid black;
@@ -56,6 +75,11 @@ section {
   height: 65vh;
 }
 
+section#projects {
+  padding-top: 120px;
+  height: 85vh;
+}
+
 .projects-container {
   border: 1px solid black;
   display: flex;
@@ -68,9 +92,16 @@ section {
   border: 1px solid black;
   width: 20%;
   height: 65vh;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
 }
 
-.contact img {
+section#contact {
+  padding-top: 120px;
+  height: 55vh;
+}
+
+#contact img {
   height: 45px;
   width: auto;
 }
