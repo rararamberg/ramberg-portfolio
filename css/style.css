@@ -118,7 +118,7 @@ section#projects {
 section#projects h2 {
   font-family: 'Press Start 2P', cursive;
   -webkit-text-stroke: .5px #232931;
-  text-shadow: 5px 5px rgba(0, 0, 255, .3);
+  text-shadow: 5px 5px rgba(190, 190, 243, .9);
   color: #393E46;
   letter-spacing: 5px;
   font-size: 45px;
@@ -220,7 +220,7 @@ section#contact {
 section#contact h4 {
   font-family: 'Press Start 2P', cursive;
   -webkit-text-stroke: .5px #232931;
-  text-shadow: 5px 5px rgba(0, 0, 255, .3);
+  text-shadow: 5px 5px rgba(190, 190, 243, .9);
   color: #393E46;
   letter-spacing: 5px;
   font-size: 45px;
