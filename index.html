@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&family=Quicksand&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <title>Rachel Ramberg- Software Engineer</title>
 </head>
@@ -18,7 +24,8 @@
       <nav>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a href="">Resume</a>
+        <a href="https://drive.google.com/file/d/1ZQvDkv5xMc6aWvIJ0Z9FyH2PZVYnNhWu/view?usp=sharing"
+          target="_blank">Resume</a>
       </nav>
     </div>
     <hr />
@@ -36,20 +43,26 @@
           Here to show you what I can do.
         </p>
       </div>
-      <div class="about-photo"></div>
+      <div class="about-photo">
+        <img src="./images/headshot.JPG" alt="headshot">
+      </div>
     </section>
 
     <section id="projects">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div class="projects-container">
         <div class="project-card">
           <div class="project-img">
-            <img src="https://i.imgur.com/GXJlOMp.png" alt="fithub-app">
+            <img src="./images/fithub.png" alt="fithub-app">
           </div>
           <div class="project-write">
             <h4>FitHub</h4>
-            <p>Application description </p>
-            <p>Technologies</p>
+            <p>
+              An full-stack app for studio and gym owners to build out their weekly
+              class schedule for students and non-users to check out. Designed with full CRUD access and user
+              authentication.
+            </p>
+            <p class="tech">Ruby, Ruby on Rails, PostgreSQL, Heroku, Luxon, React</p>
           </div>
           <div class="project-btns">
             <a href="https://fithub-app.netlify.app/" target="_blank">
@@ -61,12 +74,16 @@
         </div>
         <div class="project-card">
           <div class="project-img">
-            <img src="https://i.imgur.com/GXJlOMp.png" alt="geodish-app">
+            <img src="./images/geodish.png" alt="geodish-app">
           </div>
           <div class="project-write">
             <h4>GeoDish</h4>
-            <p>Application description </p>
-            <p>Technologies</p>
+            <p>
+              Restaurant owners from around the world feature their most popular dish
+              and entice travelers to stop for a visit. Application has
+              full CRUD access and user authenctication.
+            </p>
+            <p class="tech">Express, Mongoose, MongoDB, React, Heroku</p>
           </div>
           <div class="project-btns">
             <a href="https://geodish.netlify.app/" target="_blank">
@@ -78,12 +95,15 @@
         </div>
         <div class="project-card">
           <div class="project-img">
-            <img src="https://i.imgur.com/GXJlOMp.png" alt="WYR-app">
+            <img src="./images/wyr.png" alt="WYR-app">
           </div>
           <div class="project-write">
             <h4>Would You Rather?</h4>
-            <p>Application description </p>
-            <p>Technologies</p>
+            <p>
+              An online version of the popular ice breaker game 'Would You Rather?'.
+              Votes are logged in AirTable database and rendered in infographics with comment sections.
+            </p>
+            <p class="tech">React, JSX, Airtable, HTML, CSS, ReactChart.js, Bootstrap</p>
           </div>
           <div class="project-btns">
             <a href="https://wyr-game.netlify.app/" target="_blank">
@@ -95,12 +115,15 @@
         </div>
         <div class="project-card">
           <div class="project-img">
-            <img src="https://i.imgur.com/GXJlOMp.png" alt="ARTIC-app">
+            <img src="./images/artic.png" alt="ARTIC-app">
           </div>
           <div class="project-write">
             <h4>ARTIC Generator</h4>
-            <p>Application description </p>
-            <p>Technologies</p>
+            <p>
+              Using Chicago Art Institute API, the ARTIC Generator pulls archived artworks
+              that have circulated through museum in a aesthetic appeal. Designed to demonstrate
+              capabilities of DOM manipulation.</p>
+            <p class="tech">HTML, CSS, JS</p>
           </div>
           <div class="project-btns">
             <a href="https://rararamberg.github.io/ARTIC-generator/" target="_blank">
