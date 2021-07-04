@@ -4,13 +4,13 @@ body {
   text-align: center;
   margin: 0 auto;
   position: relative;
-  font-family: 'Quicksand', sans-serif;
-  background-color: #EEEEEE;
+  font-family: "Quicksand", sans-serif;
+  background-color: #eeeeee;
 }
 
-header{
+header {
   overflow: hidden;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   position: fixed;
   top: 0;
   padding: 5px 10px;
@@ -37,17 +37,17 @@ header hr {
 }
 
 .nav-bar h1 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 38px;
-  color:rgb(178, 178, 240);
-  -webkit-text-stroke: .8px #232931;
-  transition: all .5s ease;
+  color: rgb(178, 178, 240);
+  -webkit-text-stroke: 0.8px #232931;
+  text-shadow: 3px 3px rgba(57, 62, 70, 0.7);
+  transition: all 0.5s ease;
   letter-spacing: 3px;
 }
 
 .nav-bar h1:hover {
-  text-shadow: 5px 5px rgba(57, 62, 70, .7);
-  
+  text-shadow: 10px 10px rgba(57, 62, 70, 0.7);
 }
 
 nav {
@@ -60,7 +60,7 @@ nav {
   transition: all 200ms ease;
 }
 
-nav a:hover{
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -72,11 +72,12 @@ section#about {
   padding-top: 120px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   height: 85vh;
 }
-.about-write{
+.about-write {
   /* border: 1px solid black; */
   width: 45%;
   height: 65vh;
@@ -84,9 +85,9 @@ section#about {
 
 .about-write h2 {
   font-size: 36px;
-  font-family: 'Pacifico', cursive;
-  -webkit-text-stroke: .5px #232931;
-  color: #393E46;
+  font-family: "Pacifico", cursive;
+  -webkit-text-stroke: 0.5px #232931;
+  color: #393e46;
   letter-spacing: 5px;
 }
 
@@ -96,18 +97,44 @@ section#about {
   line-height: 1.5;
   text-align: center;
 }
-.about-photo{
+.about-photo {
   /* border: 1px solid black; */
   width: 45%;
   height: fit-content;
-  
 }
 
 .about-photo img {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+section#skills {
+  padding-top: 100px;
+  height: 45vh;
+}
+
+section#skills h2 {
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 0.5px #232931;
+  text-shadow: 5px 5px rgba(190, 190, 243, 0.9);
+  color: #393e46;
+  letter-spacing: 5px;
+  font-size: 45px;
+}
+
+.skill-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.skill-icons svg {
+  height: 3em;
+  width: auto;
 }
 
 section#projects {
@@ -116,10 +143,10 @@ section#projects {
 }
 
 section#projects h2 {
-  font-family: 'Press Start 2P', cursive;
-  -webkit-text-stroke: .5px #232931;
-  text-shadow: 5px 5px rgba(190, 190, 243, .9);
-  color: #393E46;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 0.5px #232931;
+  text-shadow: 5px 5px rgba(190, 190, 243, 0.9);
+  color: #393e46;
   letter-spacing: 5px;
   font-size: 45px;
 }
@@ -137,7 +164,7 @@ section#projects h2 {
 .project-card {
   border: 1px solid #232931;
   border-radius: 8px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
   width: 20%;
   height: 75vh;
   letter-spacing: 1.2px;
@@ -147,7 +174,7 @@ section#projects h2 {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-card:hover {
@@ -168,11 +195,11 @@ section#projects h2 {
 }
 
 .project-write {
-  padding: 0 5px;;
+  padding: 0 5px;
 }
 
 .project-write h4 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 18px;
   margin: 0;
   padding: 10px;
@@ -201,7 +228,7 @@ section#projects h2 {
   border-radius: 8px;
   background-color: #232931;
   border: 1px solid #232931;
-  color: #EEEEEE;
+  color: #eeeeee;
   transition: all 200ms ease;
   letter-spacing: 1.2px;
 }
@@ -218,10 +245,10 @@ section#contact {
 }
 
 section#contact h4 {
-  font-family: 'Press Start 2P', cursive;
-  -webkit-text-stroke: .5px #232931;
-  text-shadow: 5px 5px rgba(190, 190, 243, .9);
-  color: #393E46;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 0.5px #232931;
+  text-shadow: 5px 5px rgba(190, 190, 243, 0.9);
+  color: #393e46;
   letter-spacing: 5px;
   font-size: 45px;
 }
@@ -230,12 +257,20 @@ section#contact p {
   font-size: 36px;
 }
 
-#contact img {
-  height: 45px;
+#contact a {
+  margin: 5px 20px;
+}
+
+#contact svg {
+  height: 55px;
   width: auto;
 }
 
-@media screen and (max-width: 600px ) {
+footer svg {
+  height: 18px;
+  width: auto;
+}
+@media screen and (max-width: 600px) {
   .nav-bar {
     flex-direction: column;
     justify-content: space-around;
@@ -250,6 +285,7 @@ section#contact p {
   }
 
   section#about {
+    display: flex;
     flex-direction: column;
     padding-top: 50px;
   }
@@ -258,7 +294,7 @@ section#contact p {
     width: 95%;
   }
 
-  section#projects{
+  section#projects {
     padding-top: 50px;
   }
   section#projects h2 {
@@ -274,7 +310,6 @@ section#contact p {
     margin: 0 auto;
     overflow: scroll;
   }
-
 
   .project-card {
     width: 95%;
